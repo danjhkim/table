@@ -38,7 +38,14 @@
 			format('svg'); /* Legacy iOS */
 }
 
-html {
+/* icons */
+i img {
+	width: 1rem;
+	margin-left: 0.5rem;
+	vertical-align: middle;
+	text-align: center;
+}
+3r html {
 	overflow-y: scroll;
 }
 
