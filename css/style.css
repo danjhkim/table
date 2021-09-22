@@ -45,7 +45,8 @@ i img {
 	vertical-align: middle;
 	text-align: center;
 }
-3r html {
+
+html {
 	overflow-y: scroll;
 }
 
@@ -125,22 +126,6 @@ thead .header {
 	margin: 0 auto;
 }
 
-@keyframes grow-animation {
-	0% {
-		transform: scale(1);
-	}
-	50% {
-		transform: scale(1.05);
-	}
-	100% {
-		transform: scale(1);
-	}
-}
-
-.buyBlock:hover {
-	animation: grow-animation 1s linear forwards;
-}
-
 .purple {
 	background-color: #7d6e99;
 }
@@ -165,6 +150,7 @@ tbody .trigger th {
 tbody .trigger {
 	font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
 	font-weight: 900;
+	transition-duration: 0.3s;
 }
 
 tr .statTitle {
@@ -187,6 +173,30 @@ tr .statTitle {
 
 .active {
 	display: table-row-group;
+}
+
+/* hover transitions */
+/* buy buttons */
+@keyframes grow-animation {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.05);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.buyBlock:hover {
+	animation: grow-animation 1s linear forwards;
+}
+
+/* collapse titles */
+.trigger:hover {
+	color: #a7ca1a;
+	transition-duration: 0.3s;
 }
 
 /* dropdown menu */
