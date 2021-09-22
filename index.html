@@ -1,0 +1,625 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Payment Table</title>
+	</head>
+
+	<body class="d-flex justify-content-center">
+		<div class="container-lg top-spacer">
+			<table
+				class="
+					table table-bordered table-responsive
+					border-light
+					boxShadow
+				"
+			>
+				<!-- empty tabs on the top of table for different inputs -->
+				<div class="shownone row">
+					<div class="col-3"></div>
+					<div class="col-3"></div>
+					<div class="col-3">BEST VALUE</div>
+					<div class="col-3"></div>
+				</div>
+				<thead>
+					<!-- start of plan headers -->
+					<tr class="headerRow">
+						<th class="header"></th>
+						<th class="header">
+							<h5>Basic</h5>
+							<h1>$297</h1>
+							<span>billed yearly</span>
+							<div class="buyBlock purple">Buy Basic</div>
+						</th>
+						<th class="header">
+							<h5>Business</h5>
+							<h1>$697</h1>
+							<span>billed yearly</span>
+							<div class="buyBlock green">Buy Business</div>
+						</th>
+						<th class="header">
+							<h5>Pro</h5>
+							<h1>$997</h1>
+							<span>billed yearly</span>
+							<div class="buyBlock blue">Buy Pro</div>
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<!-- start of plan tabs -->
+					<tr class="trigger">
+						<th scope="row">General <i>?</i></th>
+						<td>Yes</td>
+						<td>Yes</td>
+						<td>Yes</td>
+					</tr>
+				</tbody>
+
+				<tbody class="hideBody">
+					<tr>
+						<th scope="row" class="statTitle">Number of sites</th>
+						<td>1</td>
+						<td>5</td>
+						<td>15</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							external integrations
+						</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">Media Manager</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">Team members</th>
+						<td>0</td>
+						<td>3</td>
+						<td>10</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">Powered by logo</th>
+						<td>1</td>
+						<td>5</td>
+						<td>15</td>
+					</tr>
+				</tbody>
+				<tr class="trigger">
+					<th scope="row">FUNNEL BUILDER<i>?</i></th>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Yes</td>
+				</tr>
+				<tbody class="hideBody">
+					<tr>
+						<th scope="row" class="statTitle">Number of funnels</th>
+						<td>10</td>
+						<td>100</td>
+						<td>500</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							Number of templates groups
+						</th>
+						<td>5</td>
+						<td>15</td>
+						<td>99999</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">split testing</th>
+						<td>no</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">mobile optimizer</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							in-built conversion tools
+						</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">html download</th>
+						<td>no</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">save as template</th>
+						<td>no</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">clone page</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">Unique visitors</th>
+						<td>25,000</td>
+						<td>100,000</td>
+						<td>Unlimited</td>
+					</tr>
+				</tbody>
+				<tr class="trigger">
+					<th scope="row">PRODUCT BUILDER<i>?</i></th>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Yes</td>
+				</tr>
+				<tbody class="hideBody">
+					<tr>
+						<th scope="row" class="statTitle"># of products</th>
+						<td>10</td>
+						<td>50</td>
+						<td>250</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							Membership Module products
+						</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">Digital Products</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							Instasuite Checkout (Stripe & Paypal)
+						</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							multiple price points
+						</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							coupons and discounts
+						</th>
+						<td>no</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							automation actions
+						</th>
+						<td>no</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							Digital product delivery - Email
+						</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							Digital product delivery - Redirect URL
+						</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							Digital product delivery - Upload File
+						</th>
+						<td>no</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							Digital product delivery - ISPDN
+						</th>
+						<td>no</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							Export orders to csv
+						</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+				</tbody>
+				<tr class="trigger">
+					<th scope="row">MEMBERSHIP BUILDER<i>?</i></th>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Yes</td>
+				</tr>
+				<tbody class="hideBody">
+					<tr>
+						<th scope="row" class="statTitle">in-built SMTP</th>
+						<td>Yes</td>
+						<td>Yes</td>
+						<td>Yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle"># of themes</th>
+						<td>1</td>
+						<td>3</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle"># of members</th>
+						<td>1,000</td>
+						<td>5,000</td>
+						<td>100,000</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">member tags</th>
+						<td>no</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">drip-feed</th>
+						<td>no</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							member progress tracking
+						</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">quiz tracking</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">design editor</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+				</tbody>
+				<tr class="trigger">
+					<th scope="row">LIST BUILDER<i>?</i></th>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Yes</td>
+				</tr>
+				<tbody class="hideBody">
+					<tr>
+						<th scope="row" class="statTitle">SMTP setup</th>
+						<td>own</td>
+						<td>own</td>
+						<td>own</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							Blacklist domain, email, IP
+						</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							Block role-based email
+						</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle"># of lists</th>
+						<td>10</td>
+						<td>100</td>
+						<td>unlimted</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle"># of subscribers</th>
+						<td>1000</td>
+						<td>5000</td>
+						<td>100000</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							Manual/Bulk Import
+						</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">List segmentation</th>
+						<td>no</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">Automations</th>
+						<td>no</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							Manual/Bulk Import
+						</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">Optin forms</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">Broadcasts</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">Sequences</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							Save email templates
+						</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+				</tbody>
+
+				<tr class="trigger">
+					<th scope="row">BLOG BUILDER<i>?</i></th>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Yes</td>
+				</tr>
+				<tbody class="hideBody">
+					<tr>
+						<th scope="row" class="statTitle">Widgets</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">Menu</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							Theme customization
+						</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle"># of Themes</th>
+						<td>1</td>
+						<td>3</td>
+						<td>3</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle"># of posts</th>
+						<td>Unlimited</td>
+						<td>Unlimited</td>
+						<td>Unlimited</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">Post categories</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+				</tbody>
+				<tr class="trigger">
+					<th scope="row">AFFILIATE CENTER<i>?</i></th>
+					<td>no</td>
+					<td>Yes</td>
+					<td>Yes</td>
+				</tr>
+				<tbody class="hideBody">
+					<tr>
+						<th scope="row" class="statTitle">In-built SMTP</th>
+						<td></td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">Promotion Tools</th>
+						<td></td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							Manage Commissions
+						</th>
+						<td></td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle"># of affiliates</th>
+						<td></td>
+						<td>1000</td>
+						<td>5000</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle"># of themes</th>
+						<td></td>
+						<td>1</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							Theme customization
+						</th>
+						<td></td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+				</tbody>
+				<tr class="trigger">
+					<th scope="row">SUPPORT DESK<i>?</i></th>
+					<td>no</td>
+					<td>Yes</td>
+					<td>Yes</td>
+				</tr>
+				<tbody class="hideBody">
+					<tr>
+						<th scope="row" class="statTitle"># of staff</th>
+						<td></td>
+						<td>3</td>
+						<td>10</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">in-built SMTP</th>
+						<td></td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">
+							# of canned responses
+						</th>
+						<td></td>
+						<td>20</td>
+						<td>100</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">knowledgebase</th>
+						<td></td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle"># of themes</th>
+						<td></td>
+						<td>1</td>
+						<td>1</td>
+					</tr>
+				</tbody>
+				<tr class="trigger">
+					<th scope="row">Client Manager<i>?</i></th>
+					<td>no</td>
+					<td>no</td>
+					<td>no</td>
+				</tr>
+				<tbody class="hideBody">
+					<tr>
+						<th scope="row" class="statTitle">
+							Number of accounts
+						</th>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+				<tr class="trigger">
+					<th scope="row">Smart Academy<i>?</i></th>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tbody class="hideBody">
+					<tr>
+						<th scope="row" class="statTitle">4-Figure Academy</th>
+						<td>yes</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">5-Figure Academy</th>
+						<td></td>
+						<td>yes</td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row" class="statTitle">6-Figure Academy</th>
+						<td></td>
+						<td></td>
+						<td>yes</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr class="headerRow">
+						<th class="header"></th>
+						<th class="header bottom">
+							<div class="buyBlock purple noMargin">
+								Buy Basic
+							</div>
+						</th>
+						<th class="header bottom">
+							<div class="buyBlock green noMargin">
+								Buy Business
+							</div>
+						</th>
+						<th class="header bottom">
+							<div class="buyBlock blue noMargin">Buy Pro</div>
+						</th>
+					</tr>
+				</thead>
+			</table>
+		</div>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+			crossorigin="anonymous"
+		></script>
+		<script src="script.js"></script>
+	</body>
+</html>
